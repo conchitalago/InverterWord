@@ -8,6 +8,7 @@ namespace InverterWord
             Console.WriteLine("Introduce la palabra:");
             string wordchoose = Console.ReadLine();
             string wordinverter = InverterModel.InvertWord(wordchoose);
+            Console.WriteLine("La palabra invertida es:");
             Console.WriteLine(wordinverter);
         }
     }
